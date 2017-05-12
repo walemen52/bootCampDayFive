@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="salarycal.js"></script>
+	<title>APPSYSTEMS SALARY CHECKER</title>
+	<meta charset='UTF-8' />
+	<meta keywords='salary, checker, result, AppSystems' />
+	<link rel = 'stylesheet' href="index.css"  type="text/css"/>
+	
+</head>
+
+<body class="body">
+	<div class = 'heaader'> </div><br /><br /><br /><br />
+	<h1 align="center"><b>A Salary Calculator</b></h1><br /> <br />
+	<div class="name">
+	 <form align = 'center' name="myForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="clientname" placeholder="write your name here" required> <br /><br />
+        <label for="level">Employee Type</label>
+        <select id ="type">
+        	<option >Employee Type</option>
+            <option value = 'associate'>Associate</option>
+        	<option value = 'manager'>Manager</option>
+        	<option value = 'intern'>Intern</option>
+        	<option value = 'executive'>Executive</option>
+        	<option value = 'director'>Director</option>
+        </select><br /><br />
+        <label>Years of Experience</label>
+        <input type="number" id="years" name="Years of experience" required><br /><br />
+        <input type="submit" class="button" value="calculate" onclick ="salaryCalculator()" />
+        <h3 id ="output"> </h3>
+         
+      </form>
+    </div>
+	<div>
+
+	</div>
+	<div>
+	</div>
+
+</body>
+
+</html>
